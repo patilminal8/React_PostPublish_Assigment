@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots PublishPost/Button Active Button 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "hsl(206, 80%, 24%)",
+      "color": "white",
+      "cursor": "pointer",
+      "opacity": 1,
+    }
+  }
+>
+  Add Post
+</button>
+`;
+
+exports[`Storyshots PublishPost/Button Non Active Button 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#62c7ff",
+      "color": "white",
+      "cursor": "pointer",
+      "opacity": 1,
+    }
+  }
+>
+  Add Post
+</button>
+`;
+
+exports[`Storyshots PublishPost/Button default 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#62c7ff",
+      "color": "white",
+      "cursor": "pointer",
+      "opacity": 1,
+    }
+  }
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots PublishPost/Button default disabled 1`] = `
+<button
+  disabled={true}
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#62c7ff",
+      "color": "white",
+      "cursor": "not-allowed",
+      "opacity": 0.5,
+    }
+  }
+>
+  Add Post
+</button>
+`;
+
+exports[`Storyshots PublishPost/Button primary disabled 1`] = `
+<button
+  disabled={true}
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "red",
+      "color": "white",
+      "cursor": "not-allowed",
+      "opacity": 0.5,
+    }
+  }
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots PublishPost/Button secondary disabled 1`] = `
+<button
+  disabled={true}
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "green",
+      "color": "white",
+      "cursor": "not-allowed",
+      "opacity": 0.5,
+    }
+  }
+>
+  Button
+</button>
+`;
+
+exports[`Storyshots PublishPost/InputText No Error 1`] = `
+<input
+  style={
+    Object {
+      "border": "2px solid black",
+      "color": "white",
+    }
+  }
+  type="text"
+/>
+`;
+
+exports[`Storyshots PublishPost/InputText WithError 1`] = `
+<input
+  style={
+    Object {
+      "border": "2px solid red",
+      "color": "white",
+    }
+  }
+  type="text"
+/>
+`;
+
+exports[`Storyshots PublishPost/InputText basic 1`] = `
+<input
+  style={
+    Object {
+      "border": "2px solid black",
+      "color": "white",
+    }
+  }
+  type="text"
+/>
+`;

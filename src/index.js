@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createStore } from 'redux';
 import './index.css';
 import App from './App';
+import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
+import reducer from './store/postReducer';
+
+const store = createStore(reducer);
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
 
@@ -15,3 +20,18 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from './App';
+// import { Provider } from 'react-redux';
+// import registerServiceWorker from './registerServiceWorker';
+// import configureStore from './store/configureStore';
+
+// const store = configureStore();
+
+// ReactDOM.render(
+// <Provider store={store}>
+//     <App />
+// </Provider>, document.getElementById('root'));
+
+// registerServiceWorker();
